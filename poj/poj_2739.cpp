@@ -8,7 +8,7 @@
 #include<signal.h>
 
 void oopsie(int sig) {
-    printf("Exepction bois\n");
+    printf("Exception bois\n");
     exit(1);
 }
 
